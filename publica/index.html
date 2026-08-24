@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cliente JWT</title>
+</head>
+
+<body>
+
+    <h1>Login</h1>
+
+    <input id="nombre" type="text" placeholder="Usuario">
+    <input id="clave" type="password" placeholder="Contraseña">
+
+    <button onclick="login()">Iniciar sesión</button>
+    <button onclick="cerrarSesion()">Cerrar sesión</button>
+
+    <p id="mensaje"></p>
+
+    <hr>
+
+    <h1>Noticias</h1>
+
+    <button onclick="obtenerNoticias()">
+        Obtener noticias
+    </button>
+
+    <ul id="listaNoticias"></ul>
+
+    <script src="cliente.js"></script>
+
+</body>
+</html>
